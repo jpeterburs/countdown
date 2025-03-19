@@ -13,7 +13,7 @@ export default {
   methods: {
     calculateRemainingHours() {
       const now = new Date()
-      const theDay = new Date('2025-04-01')
+      const theDay = new Date('2025-05-06')
 
       return Math.floor((theDay - now) / 1000 / 60 / 60)
     },
